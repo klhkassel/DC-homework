@@ -1,0 +1,38 @@
+.header,
+.footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  border: 5px solid navy;
+  background-color: aquamarine;
+  border-radius: 15px;
+}
+
+.columnContainer {
+  display: flex;
+  padding: 20px;
+  align-items: stretch;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  height: 500px;
+  border: 10px solid purple;
+  background-color: coral;
+  column-gap: 2em;
+}
+
+.column1 {
+  height: 480px;
+  border: 10px solid yellow;
+  width: 300px;
+  padding-right: 100px;
+  justify-content: space-between;
+  border-radius: 15px;
+  background-color: aliceblue;
+}
+.column2 {
+  border: 10px solid orange;
+  height: 480px;
+  flex-grow: 4;
+  border-radius: 15px;
+  background-color: aliceblue;
+}

@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #4a6156;
+  background-image: url("/users/kellyhayes/DigitalCrafts/huynh/plate.jpg");
+  background-repeat: no-repeat;
+}
+.navbar {
+  background: #95aea3;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-link,
+.navbar-brand {
+  cursor: pointer;
+  color: #083714;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #000;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+p {
+  font-family: "Raleway";
+  color: #37483b;
+}
+.feature-title {
+  color: #37483b;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+.page-footer {
+  background-color: #37483b;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+.footer-copyright {
+  color: #ccc;
+  padding: 40px 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  margin-bottom: 4%;
+}
+
+h1 {
+  font-family: "Dancing Script";
+  font-size: 55px;
+  color: #083714;
+  padding: 4% 10%;
+}
+img {
+  width: 100%;
+  border: 2px solid #4a6156;
+}
+
+.footerText {
+  color: white;
+}
